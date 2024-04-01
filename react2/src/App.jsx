@@ -7,7 +7,8 @@ function App() {
         <div>
          
           <TodoList todoList={todoList} />
-        </div>
+      </div>
+      
       );
 }
 export default App;
