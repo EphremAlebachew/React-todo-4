@@ -16,6 +16,7 @@ function AddTodoForm({ onAddTodo }) {
             <input type="text" placeholder="Enter Todo" value={todoTitle} onChange={handleTitleChange} />
             <button onClick={handleAddTodo}>Add Todo</button>
         </div>
+        
     );
 
 }
