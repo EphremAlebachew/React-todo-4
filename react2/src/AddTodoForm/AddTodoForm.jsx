@@ -16,8 +16,9 @@ function AddTodoForm({ onAddTodo }) {
  
     return (
         <div>
-            <input type="text" placeholder="Enter Todo title" value={todoTitle} onChange={handleTitleChange} />
-            <button onClick={handleAddTodo}>Add Todo</button>
+            <input type="text"  value={todoTitle} onChange={handleTitleChange} />
+            <button onClick={handleAddTodo}>Add </button>
+            <li>item 1</li>
         </div>
         
     );
